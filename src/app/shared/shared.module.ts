@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { System } from '../shared/models/system';
+import { SystemService } from '../shared/services/system.service';
 
 @NgModule({
   declarations: [
@@ -9,6 +10,6 @@ import { System } from '../shared/models/system';
   imports: [
     BrowserModule
   ],
-  providers: []
+  providers: [SystemService]
 })
 export class SharedModule { }

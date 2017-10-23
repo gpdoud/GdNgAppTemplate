@@ -7,7 +7,5 @@ export class SystemService {
 
 	system: System = new System();
 
-	constructor() {
-		console.log(this.system);
-	}
+	constructor() {}
 }
